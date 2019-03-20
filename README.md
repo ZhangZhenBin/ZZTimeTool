@@ -1,1 +1,6 @@
 # ZZTimeTool
+
+Pods
+~~~
+ pod 'ZZBTimeTool'
+~~~

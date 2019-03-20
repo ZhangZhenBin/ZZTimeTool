@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1835030C224211110093661F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835030B224211110093661F /* AppDelegate.m */; };
+		1835030F224211110093661F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835030E224211110093661F /* ViewController.m */; };
+		18350312224211110093661F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18350310224211110093661F /* Main.storyboard */; };
+		18350314224211130093661F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18350313224211130093661F /* Assets.xcassets */; };
+		18350317224211130093661F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18350315224211130093661F /* LaunchScreen.storyboard */; };
+		1835031A224211130093661F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18350319224211130093661F /* main.m */; };
+		18350324224211130093661F /* ZZTimeToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18350323224211130093661F /* ZZTimeToolTests.m */; };
+		1835032F224211130093661F /* ZZTimeToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835032E224211130093661F /* ZZTimeToolUITests.m */; };
+		1835033F2242113F0093661F /* ZZTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835033D2242113F0093661F /* ZZTimeTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18350320224211130093661F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183502FF224211110093661F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18350306224211110093661F;
+			remoteInfo = ZZTimeTool;
+		};
+		1835032B224211130093661F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183502FF224211110093661F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18350306224211110093661F;
+			remoteInfo = ZZTimeTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18350307224211110093661F /* ZZTimeTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTimeTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1835030A224211110093661F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1835030B224211110093661F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1835030D224211110093661F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1835030E224211110093661F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18350311224211110093661F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18350313224211130093661F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18350316224211130093661F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18350318224211130093661F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18350319224211130093661F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1835031F224211130093661F /* ZZTimeToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTimeToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18350323224211130093661F /* ZZTimeToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTimeToolTests.m; sourceTree = "<group>"; };
+		18350325224211130093661F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1835032A224211130093661F /* ZZTimeToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTimeToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1835032E224211130093661F /* ZZTimeToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTimeToolUITests.m; sourceTree = "<group>"; };
+		18350330224211130093661F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1835033D2242113F0093661F /* ZZTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTimeTool.m; sourceTree = "<group>"; };
+		1835033E2242113F0093661F /* ZZTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTimeTool.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18350304224211110093661F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835031C224211130093661F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350327224211130093661F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183502FE224211110093661F = {
+			isa = PBXGroup;
+			children = (
+				18350309224211110093661F /* ZZTimeTool */,
+				18350322224211130093661F /* ZZTimeToolTests */,
+				1835032D224211130093661F /* ZZTimeToolUITests */,
+				18350308224211110093661F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18350308224211110093661F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18350307224211110093661F /* ZZTimeTool.app */,
+				1835031F224211130093661F /* ZZTimeToolTests.xctest */,
+				1835032A224211130093661F /* ZZTimeToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18350309224211110093661F /* ZZTimeTool */ = {
+			isa = PBXGroup;
+			children = (
+				1835033C2242113F0093661F /* ZZTimeTool */,
+				1835030A224211110093661F /* AppDelegate.h */,
+				1835030B224211110093661F /* AppDelegate.m */,
+				1835030D224211110093661F /* ViewController.h */,
+				1835030E224211110093661F /* ViewController.m */,
+				18350310224211110093661F /* Main.storyboard */,
+				18350313224211130093661F /* Assets.xcassets */,
+				18350315224211130093661F /* LaunchScreen.storyboard */,
+				18350318224211130093661F /* Info.plist */,
+				18350319224211130093661F /* main.m */,
+			);
+			path = ZZTimeTool;
+			sourceTree = "<group>";
+		};
+		18350322224211130093661F /* ZZTimeToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				18350323224211130093661F /* ZZTimeToolTests.m */,
+				18350325224211130093661F /* Info.plist */,
+			);
+			path = ZZTimeToolTests;
+			sourceTree = "<group>";
+		};
+		1835032D224211130093661F /* ZZTimeToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1835032E224211130093661F /* ZZTimeToolUITests.m */,
+				18350330224211130093661F /* Info.plist */,
+			);
+			path = ZZTimeToolUITests;
+			sourceTree = "<group>";
+		};
+		1835033C2242113F0093661F /* ZZTimeTool */ = {
+			isa = PBXGroup;
+			children = (
+				1835033E2242113F0093661F /* ZZTimeTool.h */,
+				1835033D2242113F0093661F /* ZZTimeTool.m */,
+			);
+			path = ZZTimeTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18350306224211110093661F /* ZZTimeTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18350333224211130093661F /* Build configuration list for PBXNativeTarget "ZZTimeTool" */;
+			buildPhases = (
+				18350303224211110093661F /* Sources */,
+				18350304224211110093661F /* Frameworks */,
+				18350305224211110093661F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZTimeTool;
+			productName = ZZTimeTool;
+			productReference = 18350307224211110093661F /* ZZTimeTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1835031E224211130093661F /* ZZTimeToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18350336224211130093661F /* Build configuration list for PBXNativeTarget "ZZTimeToolTests" */;
+			buildPhases = (
+				1835031B224211130093661F /* Sources */,
+				1835031C224211130093661F /* Frameworks */,
+				1835031D224211130093661F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18350321224211130093661F /* PBXTargetDependency */,
+			);
+			name = ZZTimeToolTests;
+			productName = ZZTimeToolTests;
+			productReference = 1835031F224211130093661F /* ZZTimeToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18350329224211130093661F /* ZZTimeToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18350339224211130093661F /* Build configuration list for PBXNativeTarget "ZZTimeToolUITests" */;
+			buildPhases = (
+				18350326224211130093661F /* Sources */,
+				18350327224211130093661F /* Frameworks */,
+				18350328224211130093661F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1835032C224211130093661F /* PBXTargetDependency */,
+			);
+			name = ZZTimeToolUITests;
+			productName = ZZTimeToolUITests;
+			productReference = 1835032A224211130093661F /* ZZTimeToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183502FF224211110093661F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18350306224211110093661F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1835031E224211130093661F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18350306224211110093661F;
+					};
+					18350329224211130093661F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18350306224211110093661F;
+					};
+				};
+			};
+			buildConfigurationList = 18350302224211110093661F /* Build configuration list for PBXProject "ZZTimeTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183502FE224211110093661F;
+			productRefGroup = 18350308224211110093661F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18350306224211110093661F /* ZZTimeTool */,
+				1835031E224211130093661F /* ZZTimeToolTests */,
+				18350329224211130093661F /* ZZTimeToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18350305224211110093661F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18350317224211130093661F /* LaunchScreen.storyboard in Resources */,
+				18350314224211130093661F /* Assets.xcassets in Resources */,
+				18350312224211110093661F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835031D224211130093661F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350328224211130093661F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18350303224211110093661F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835033F2242113F0093661F /* ZZTimeTool.m in Sources */,
+				1835030F224211110093661F /* ViewController.m in Sources */,
+				1835031A224211130093661F /* main.m in Sources */,
+				1835030C224211110093661F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1835031B224211130093661F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18350324224211130093661F /* ZZTimeToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18350326224211130093661F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835032F224211130093661F /* ZZTimeToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18350321224211130093661F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18350306224211110093661F /* ZZTimeTool */;
+			targetProxy = 18350320224211130093661F /* PBXContainerItemProxy */;
+		};
+		1835032C224211130093661F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18350306224211110093661F /* ZZTimeTool */;
+			targetProxy = 1835032B224211130093661F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18350310224211110093661F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18350311224211110093661F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18350315224211130093661F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18350316224211130093661F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18350331224211130093661F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18350332224211130093661F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18350334224211130093661F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTimeTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzbcsy.ZZTimeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18350335224211130093661F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTimeTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzbcsy.ZZTimeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18350337224211130093661F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTimeToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzbcsy.ZZTimeToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTimeTool.app/ZZTimeTool";
+			};
+			name = Debug;
+		};
+		18350338224211130093661F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTimeToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzbcsy.ZZTimeToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTimeTool.app/ZZTimeTool";
+			};
+			name = Release;
+		};
+		1835033A224211130093661F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTimeToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzbcsy.ZZTimeToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTimeTool;
+			};
+			name = Debug;
+		};
+		1835033B224211130093661F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTimeToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzbcsy.ZZTimeToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTimeTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18350302224211110093661F /* Build configuration list for PBXProject "ZZTimeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18350331224211130093661F /* Debug */,
+				18350332224211130093661F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18350333224211130093661F /* Build configuration list for PBXNativeTarget "ZZTimeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18350334224211130093661F /* Debug */,
+				18350335224211130093661F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18350336224211130093661F /* Build configuration list for PBXNativeTarget "ZZTimeToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18350337224211130093661F /* Debug */,
+				18350338224211130093661F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18350339224211130093661F /* Build configuration list for PBXNativeTarget "ZZTimeToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1835033A224211130093661F /* Debug */,
+				1835033B224211130093661F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183502FF224211110093661F /* Project object */;
+}
